@@ -6,6 +6,7 @@ public abstract class Figura {
         this.lado = lado;
     }
     public abstract double getArea();
+
     public abstract void dibujar(Graphics g, int x, int y);
 
 }
