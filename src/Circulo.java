@@ -9,7 +9,7 @@ public class Circulo extends Figura {
         return (Math.PI * lado * lado);
     }
     public void dibujar(Graphics g, int x, int y) {
-        g.setColor(Color.red);
+        g.setColor(Color.YELLOW);
         g.drawArc(x, y, lado, lado, 0, 360);
     }
 
